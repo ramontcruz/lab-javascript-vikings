@@ -59,4 +59,28 @@ class War {
         this.vikingArmy.push(viking);
     }
 
+    addSaxon(saxon){
+        this.saxonArmy.push(saxon);
+    }
+
+    vikingAttack(){
+        /*
+        this.saxonArmy.forEach(element, index => {
+            console.log("antes "+this.saxonArmy[index]);
+            this.vikingArmy.forEach(viking => {
+                if(viking.attack==element.health){
+                    this.saxonArmy.splice(this.saxonArmy[index],1);
+                }
+            });
+            console.log("depois "+this.saxonArmy[index]);
+        });
+        */
+        this.saxonArmy.forEach(element, index => {
+            console.log("antes "+this.saxonArmy[index]);
+            
+            //console.log("depois "+this.saxonArmy[index]);
+        });
+        
+    }
+
 }
